@@ -1,0 +1,52 @@
+body {
+	background-image: url('images/szablon.JPG');
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+div#tlo2 {
+	background-color: black;
+	width: 960px;
+	margin: auto;
+	height: 820px;
+}
+
+img#puszka_image {
+	margin-left: 90px;
+	margin-top: 100px;
+	transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	-ie-transform: rotate(-20deg);
+	display: inline;
+	float: left;
+}
+
+div#komentarz {
+	display: inline;
+}
+
+div#trojkat {
+	width: 0;
+	height: 0;
+	border-top: 100px solid #d9c566;
+	border-left: 100px solid transparent;
+	display: inline;
+	float: right;
+}
+
+div#o_puszce {
+	width: 500px;
+	float: right;
+	background-color: #d9c566;
+	height: 100%;
+	display: inline;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+div#tekst {
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
