@@ -1,0 +1,126 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+}
+
+.box {
+  padding-left: 4px;
+  width: 400px;
+  display: inline-block;
+  margin: -4px;
+  /* position: absolute;
+  top: 0; */ 
+}
+
+#a1 {
+  background-color: rgba(50, 50, 50, 1);
+  color: white;
+  width: 400px;
+  display: block;
+  padding: 3px;
+}
+
+#b1 {
+  background-color: green;
+  color: black;
+  width: 400px;
+  display: block;
+  padding: 3px;
+}
+
+#c1 {
+  background-color: red;
+  color: black;
+  width: 400px;
+  display: block;
+  padding: 3px;
+  /* margin-left: -3px; */
+}
+
+#b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#c {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: auto;
+  margin-right: 6px;
+}
+
+#copy {
+  position: fixed;
+  background-color: yellow;
+  padding: 7px;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+#a2 {
+  background-color: blue;
+  color: white;
+  width: 400px;
+  display: block;
+  padding: 3px;
+}
+
+#c2 {
+  background-color: #FDC94D;
+  color: black;
+  width: 400px;
+  display: block;
+  padding: 3px;
+}
+
+#b3 {
+  background-color: #FF73DC;
+  color: black;
+  width: 400px;
+  display: block;
+  padding: 3px;
+}
+
+#b4 {
+  background-color: #D90000;
+  color: black;
+  width: 400px;
+  display: block;
+  padding: 3px;
+}
+
+#c3 {
+  background-color: #FDFDFF;
+  color: black;
+  width: 400px;
+  display: block;
+  padding: 3px;
+}
+
+#read {
+  background-color: transparent;
+  height: 40px;
+}
+
+#a3 {
+  background-color: #FFFF26;
+  color: black;
+  width: 400px;
+  display: block;
+  padding: 3px;
+}
+
+#b5 {
+  background-color: #BFEFFF;
+  color: black;
+  width: 400px;
+  display: block;
+  padding: 3px;
+}
